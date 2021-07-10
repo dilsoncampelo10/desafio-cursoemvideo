@@ -5,10 +5,29 @@ body{
     background-color: #c5ebd6;
 }
 header{
-    
+    background-image: linear-gradient(to bottom );
+    color: white;
 }
 header h1{
-    color: white;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
+}
+header p{
+    text-align: center;
+}
+main{
+    background-color: white;
+    max-width: 900px;
+    min-width: 300px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+    border-radius: 0px 0px 10px 10px;
+}
+main img{
+    display: block;
+    margin: auto;
+}
+main picture img{
+    width: 100%;
 }
