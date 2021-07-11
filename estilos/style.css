@@ -32,10 +32,19 @@ nav li{
     margin-top: 30px;
     display: inline-block;
     margin-right: 10px;
+    
 }
 nav a{
     color: white;
     font-weight: bold;
+    text-decoration: none;
+    padding-top: 5px;
+    padding: 10px 5px 10px 5px;
+}
+nav a:hover{
+    background-color: #2fa866;
+    color: #063d1e;
+    border-radius: 5px;
 }
 main{
     background-color: white;
@@ -65,4 +74,19 @@ main img{
 }
 main picture img{
     width: 100%;
+}
+.tituloextra{
+    padding: 6px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 1.1em;
+    background-color: #2fa866;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+aside{
+    background-color: #c5ebd6;
+    
+}
+aside p {
+    padding: 0px 10px 10px 10px;
 }
