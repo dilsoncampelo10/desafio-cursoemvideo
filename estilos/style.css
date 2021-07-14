@@ -75,6 +75,11 @@ main img{
 main picture img{
     width: 100%;
 }
+section#video{
+    text-align: center;
+    max-width: 900px;
+    min-width: 300px;
+}
 .tituloextra{
     padding: 6px;
     border-radius: 10px 10px 0px 0px;
@@ -89,4 +94,16 @@ aside{
 }
 aside p {
     padding: 0px 10px 10px 10px;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: #063d1e;
+}
+footer a{
+    max-width: 900px;
+    min-width: 300px;
+    color: white;
+    text-decoration: none;
 }
