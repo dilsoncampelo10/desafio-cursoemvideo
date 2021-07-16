@@ -95,6 +95,14 @@ aside{
 aside p {
     padding: 0px 10px 10px 10px;
 }
+main  #video{
+    max-width: 100%;
+    border:50px solid #063d1e;
+    margin: 10px auto 10px auto;
+}
+#video iframe{
+    width: 100%;
+}
 footer{
     margin-top: 20px;
     text-align: center;
