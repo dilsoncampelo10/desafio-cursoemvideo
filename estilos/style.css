@@ -22,6 +22,7 @@ header h1{
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     margin-bottom: 25px;
+    font-weight: normal;
 }
 header p{
     text-align: center;
@@ -81,11 +82,13 @@ main h1{
     color: #063d1e;
     padding-top: 20px;
     font-size: 2em;
+    font-weight: normal;
 }
 main h2{
     font-family: "android";
     background-image: linear-gradient(to left,white ,#c5ebd6,#83e1ad);
     color: #063d1e;
+    font-weight: normal;
 }
 main img{
     display: block;
@@ -94,10 +97,20 @@ main img{
 main picture img{
     width: 100%;
 }
-section#video{
-    text-align: center;
-    max-width: 900px;
-    min-width: 300px;
+.video{
+    
+    background-color: #063d1e;
+    margin: 0 -10px 30px -10px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 55.4%;
+}
+.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 .tituloextra{
     padding: 6px;
@@ -114,6 +127,11 @@ aside{
 aside p {
     padding: 0px 10px 10px 10px;
 }
+
+aside ul{
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
 main  #video{
     max-width: 100%;
     margin: 10px auto 10px auto;
@@ -129,10 +147,16 @@ footer{
     text-align: center;
     color: white;
     background-color: #063d1e;
+    padding: 5px;
 }
 footer a{
     max-width: 900px;
     min-width: 300px;
     color: white;
+    font-weight: bolder;
     text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #2fa866;
 }
